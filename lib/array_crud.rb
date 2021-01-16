@@ -7,7 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
- array << element
+ famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
+ 
 end
 
 def add_element_to_start_of_array(array, element)
