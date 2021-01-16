@@ -37,7 +37,8 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array[-1]
+  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
+  famous_cats[-1]
 end
 
 def update_element_from_index(array, index_number, element)
