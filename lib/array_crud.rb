@@ -43,5 +43,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  famous_cats[3] = 
+  famous_cats[3] = "nice cat"
 end
