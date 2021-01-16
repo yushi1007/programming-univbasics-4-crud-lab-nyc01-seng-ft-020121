@@ -13,17 +13,17 @@ end
 
 def add_element_to_start_of_array(array, element)
   famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  array.unshift ("cat fish")
+  famous_cats.unshift ("cat fish")
 end
 
 def remove_element_from_end_of_array(array)
   famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "arrays!"]
-  arrays = cats.pop
+  famous_cats = cats.pop
 end
 
 def remove_element_from_start_of_array(array)
   famous_cats = ["cat fish", "British Shorthair", "Nebelung", "Persian cat"]
-  cat fish = array.shift
+  cat fish = famous_cats.shift
 end
 
 def retrieve_element_from_index(array, index_number)
