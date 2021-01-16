@@ -39,5 +39,7 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  famous_cats[3] 
+    array = ["I", "am", "yu", "shi"]
+    array[1]
+    array[1] = "totally"
 end
