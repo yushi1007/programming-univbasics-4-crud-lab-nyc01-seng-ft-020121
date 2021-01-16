@@ -12,36 +12,36 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array = ["Shorthair", "British", "Nebelung", "Persian",  "nice"]
-  array.unshift("fish")
+array = ["hi", "add", "me", "to", "front"]
+array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "arrays!"]
-  famous_cats = cats.pop
+list = ["hi", "how", "are", "you", "doing", "arrays!"]
+list.pop
 end
 
 def remove_element_from_start_of_array(array)
-  array = ["cat fish", "British Shorthair", "Nebelung", "Persian cat"]
-  cat fish = famous_cats.shift
+list = ["wow", "take", "me", "out"]
+list.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  famous_cats[2]
+list = ["wow", "am", "index"]
+list[1]
 end
 
 def retrieve_first_element_from_array(array)
-  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  famous_cats[0]
+list = ["wow", "first", "element", "of"]
+list[0]
 end
 
 def retrieve_last_element_from_array(array)
-  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  famous_cats[-1]
+list = ["wow", "first", "element", "of", "arrays!"]
+list[4]
 end
 
 def update_element_from_index(array, index_number, element)
-  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  famous_cats[3] = "nice cat"
+list = ["wow", "first", "element", "of", "arrays!"]
+list[2] = "totally"
 end
