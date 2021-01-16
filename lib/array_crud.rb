@@ -12,8 +12,8 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  famous_cats = ["Exotic Shorthair", "British Shorthair", "Nebelung", "Persian cat"]
-  famous_cats.unshift ("cat fish")
+  famous_cats = ["Shorthair", "British", "Nebelung", "Persian"]
+  famous_cats.unshift ("fish")
 end
 
 def remove_element_from_end_of_array(array)
